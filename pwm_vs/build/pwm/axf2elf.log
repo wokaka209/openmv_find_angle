@@ -1,0 +1,4 @@
+arm-none-eabi-objcopy --update-section ER_IROM1="C:\Users\coolkey\AppData\Local\Temp\\pwm_EcxNgh3c.bin" "d:\NEW_desktop\point_c\c8t6\c_problem\pwm_vs\build\pwm\pwm.axf" "d:\NEW_desktop\point_c\c8t6\c_problem\pwm_vs\build\pwm\pwm.elf"
+
+arm-none-eabi-objcopy: d:\NEW_desktop\point_c\c8t6\c_problem\pwm_vs\build\pwm\pwm.elf: warning: allocated section `RW_IRAM1' not in segment
+
